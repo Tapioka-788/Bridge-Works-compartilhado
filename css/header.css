@@ -1,0 +1,33 @@
+header {
+    width: 100vw;
+    height: 8vh;
+    position: absolute;
+    top: 0vh;
+    background-color: #011126;
+}
+
+header div {
+    width: 100vw;
+    height: 8vh;
+    position: absolute;
+    top: 0vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu_cabecalho{
+    margin: 1vh 0vw;
+    width: 12vw ;
+    height: 5vh ;
+
+    border-radius: 50vw ;
+    background-color: #FFFFFF;
+    font-size: 1.2vw ;
+    color: #011126;
+
+}
+
+#bridgwork_texto{
+    color: white;
+}

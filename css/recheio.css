@@ -1,0 +1,95 @@
+#backgroun_recheio {
+    width: 95vw;
+    height: 80vh;
+    margin: 10vh 2vw 2vh;
+    background-color: #08678C;
+    border-radius: 2vw;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.btns_vagas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn_coluna {
+    margin: 1vh 0vw;
+    width: 15vw;
+    height: 6vh;
+
+    border-radius: 50vw;
+    background-color: #FFFFFF;
+    font-size: 1.2vw;
+    color: #011126;
+}
+
+#cartao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#cartao_vaga {
+    width: 30vw;
+    height: 40vh;
+    border: #011126;
+    border-radius: 2vw;
+    background-color: #ffffff;
+    color: #011126;
+    position: absolute;
+    top: 30vh;
+}
+
+#rodape_card {
+    width: 30vw;
+    height: 10vh;
+    border-radius: 0vh 0vh 2vw 2vw;
+    background-color: #011126;
+    color: #FFFFFF;
+    position: absolute;
+    top: 60vh;
+    z-index: 10;
+}
+
+#ct_Vsalario {
+    position: absolute;
+    right: 2vw;
+    font-size: 1.5vw;
+}
+
+#ct_Vvaga {
+    position: absolute;
+    bottom: 11vh;
+    left: 1vw;
+    font-size: 2vw;
+}
+
+#ct_Vdescricao {
+    position: absolute;
+    bottom: 9vh;
+    left: 1vw;
+}
+#ct_Vhorario {
+    position: absolute;
+    right: 1vw;
+    bottom: 9vh;
+}
+#ct_Vlocal {
+    position: absolute;
+    font-size: 1.5vw;
+    top: 1vh;
+    left: 1vw;
+}
+
+#ct_VnomeE {
+    position: absolute;
+    bottom: 2vh;
+    left: 1vw;
+}
