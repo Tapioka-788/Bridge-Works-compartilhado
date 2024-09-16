@@ -33,7 +33,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 #cartao_vaga {
@@ -76,11 +75,13 @@
     bottom: 9vh;
     left: 1vw;
 }
+
 #ct_Vhorario {
     position: absolute;
     right: 1vw;
     bottom: 9vh;
 }
+
 #ct_Vlocal {
     position: absolute;
     font-size: 1.5vw;
