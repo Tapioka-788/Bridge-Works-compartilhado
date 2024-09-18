@@ -1,24 +1,17 @@
-#backgroun_recheio {
-    width: 95vw;
-    height: 80vh;
-    margin: 10vh 2vw 2vh;
-    background-color: #08678C;
-    border-radius: 2vw;
-
+#secion {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
 }
-
-.btns_vagas {
+#botoes{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
 }
 
-.btn_coluna {
+section button{
     margin: 1vh 0vw;
     width: 15vw;
     height: 6vh;
@@ -27,15 +20,8 @@
     background-color: #FFFFFF;
     font-size: 1.2vw;
     color: #011126;
-}
-
-#cartao {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 
 }
-
 #cartao_vaga {
     width: 30vw;
     height: 40vh;
@@ -76,11 +62,13 @@
     bottom: 9vh;
     left: 1vw;
 }
+
 #ct_Vhorario {
     position: absolute;
     right: 1vw;
     bottom: 9vh;
 }
+
 #ct_Vlocal {
     position: absolute;
     font-size: 1.5vw;
@@ -93,3 +81,11 @@
     bottom: 2vh;
     left: 1vw;
 }
+
+/* #backgroun_recheio {
+    width: 95vw;
+    height: 80vh;
+    margin: 10vh 2vw 2vh;
+    background-color: #08678C;
+    border-radius: 2vw;
+} */
