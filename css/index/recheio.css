@@ -9,6 +9,9 @@ section {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    position: absolute;
+    left: 15vw;
+    top: 25.5vh;
 }
 
 section button {
@@ -31,7 +34,7 @@ section button {
     color: #011126;
     position: absolute;
     top: 30vh;
-    right: 10vw;
+    right: 15vw;
 }
 
 #rodape_card {
@@ -41,7 +44,7 @@ section button {
     background-color: #011126;
     color: #FFFFFF;
     position: absolute;
-    top: 29vh;
+    top: 30vh;
     z-index: 10;
 }
 
@@ -70,9 +73,9 @@ section button {
     bottom: 9vh;
 }
 
-#ct_Vlocal {
+#ct_VlocalnomeE {
     position: absolute;
-    font-size: 1.5vw;
+    font-size: 1vw;
     top: 1vh;
     left: 1vw;
 }
@@ -83,10 +86,10 @@ section button {
     left: 1vw;
 }
 
-/* #backgroun_recheio {
+#backgroun_recheio {
     width: 95vw;
     height: 80vh;
     margin: 10vh 2vw 2vh;
     background-color: #08678C;
     border-radius: 2vw;
-} */
+}
