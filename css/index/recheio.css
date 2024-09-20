@@ -1,17 +1,17 @@
-#secion {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
+section {
+    width: 100vw;
+    height: 83vh;
+    margin: 8vh 0 9vh;
 }
-#botoes{
+
+#botoes {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
 }
 
-section button{
+section button {
     margin: 1vh 0vw;
     width: 15vw;
     height: 6vh;
@@ -21,6 +21,7 @@ section button{
     font-size: 1.2vw;
     color: #011126;
 }
+
 #cartao_vaga {
     width: 30vw;
     height: 40vh;
@@ -30,6 +31,7 @@ section button{
     color: #011126;
     position: absolute;
     top: 30vh;
+    right: 10vw;
 }
 
 #rodape_card {
@@ -39,7 +41,7 @@ section button{
     background-color: #011126;
     color: #FFFFFF;
     position: absolute;
-    top: 60vh;
+    top: 29vh;
     z-index: 10;
 }
 
