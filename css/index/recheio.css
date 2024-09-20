@@ -1,6 +1,6 @@
 section {
     width: 100vw;
-    height: 83vh;
+    height: 80vh;
     margin: 8vh 0 9vh;
 }
 
@@ -33,7 +33,7 @@ section button {
     background-color: #ffffff;
     color: #011126;
     position: absolute;
-    top: 30vh;
+    top: 25vh;
     right: 15vw;
 }
 
@@ -44,7 +44,7 @@ section button {
     background-color: #011126;
     color: #FFFFFF;
     position: absolute;
-    top: 30vh;
+    bottom: 0;
     z-index: 10;
 }
 
@@ -76,7 +76,7 @@ section button {
 #ct_VlocalnomeE {
     position: absolute;
     font-size: 1vw;
-    top: 1vh;
+    top: 0.2 vh;
     left: 1vw;
 }
 
@@ -84,6 +84,12 @@ section button {
     position: absolute;
     bottom: 2vh;
     left: 1vw;
+}
+
+#confirmar {
+    position: absolute;
+    top: 70vh;
+    right: 22.5vw;
 }
 
 #backgroun_recheio {

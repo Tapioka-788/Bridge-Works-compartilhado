@@ -16,18 +16,26 @@ header div {
     align-items: center;
     justify-content: space-between;
 }
-.menu_cabecalho{
+
+.menu_cabecalho {
     margin: 1vh 0vw;
-    width: 12vw ;
-    height: 5vh ;
+    width: 12vw;
+    height: 5vh;
 
-    border-radius: 50vw ;
+    border-radius: 50vw;
     background-color: #FFFFFF;
-    font-size: 1.2vw ;
+    font-size: 1.2vw;
     color: #011126;
-
 }
 
-#bridgwork_texto{
+#voltar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #011126;
+}
+
+#bridgwork_texto {
     color: white;
 }
