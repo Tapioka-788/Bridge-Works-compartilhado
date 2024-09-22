@@ -1,6 +1,6 @@
-@import url(./../footer.css);
 @import url(./../header.css);
-@import url(./recheioescolhape.css);
+@import url(./recheio_criarcurriculo.css);
+@import url(./../footer.css);
 
 body {
     margin: 0;
