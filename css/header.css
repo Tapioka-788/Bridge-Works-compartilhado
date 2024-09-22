@@ -27,6 +27,10 @@ header div {
     font-size: 1.2vw;
     color: #011126;
 }
+.menu_cabecalho:hover{
+    width: 20vw;
+    cursor: pointer;
+}
 
 #voltar {
     display: flex;
@@ -34,6 +38,10 @@ header div {
     align-items: center;
     justify-content: space-evenly;
     color: #011126;
+}
+#voltar:hover{
+    color: red;
+    cursor: pointer;
 }
 
 #bridgwork_texto {

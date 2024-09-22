@@ -11,5 +11,27 @@ footer div {
 }
 
 .texto_rodape {
-    color: white
+    color: white;
+}
+
+footer h4 {
+    font-size: 2vw;
+}
+
+footer h4:hover {
+    font-size: 2.5vw;
+}
+
+footer h6 {
+    font-size: 1.5vw;
+}
+
+footer h6:hover {
+    font-size: 2vw;
+}
+
+.texto_rodape:hover {
+    color: rgb(228, 228, 228);
+    text-decoration: underline;
+    cursor: pointer;
 }

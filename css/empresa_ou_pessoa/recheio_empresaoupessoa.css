@@ -47,7 +47,15 @@
     font-size: 2vw;
     color: #ffffff;
 }
-#botao_escolha_pessoa{
+
+#botao_escolha_empresa:hover{
+    width: 18vw;
+    background-color: #FFFFFF;
+    color: #011126;
+    cursor: pointer;
+}
+
+#botao_escolha_pessoa {
     position: absolute;
     top: 32vh;
     left: 14vw;
@@ -59,10 +67,18 @@
     font-size: 2vw;
     color: #011126;
 }
-#botao_brayam{
+
+#botao_escolha_pessoa:hover {
+    width: 18vw;
+    background-color: #074973;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#botao_brayam {
     position: absolute;
     bottom: 11vh;
-    left:42vw;
+    left: 42vw;
     width: 15vw;
     height: 6vh;
 
@@ -70,4 +86,11 @@
     background-color: #FFFFFF;
     font-size: 1.2vw;
     color: #011126;
+}
+
+#botao_brayam:hover {
+    width: 16vw;
+    background-color: #011126;
+    color: #FFFFFF;
+    cursor: pointer;
 }
