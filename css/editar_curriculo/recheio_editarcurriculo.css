@@ -25,6 +25,14 @@ section button {
     color: #011126;
 }
 
+section button:hover {
+    margin: 1vh -1vw;
+    width: 16vw;
+    color: #FFFFFF;
+    background-color: #011126;
+    cursor: pointer;
+}
+
 #cartao_curriculo {
     width: 30vw;
     height: 40vh;
@@ -80,11 +88,12 @@ section button {
     left: 1vw;
 }
 
-#confirmar_edicao_curiculo{
+#confirmar_edicao_curiculo {
     position: absolute;
     top: 70vh;
     right: 22.5vw;
 }
+
 /* #confirmar_curiculo {
     position: absolute;
     top: 70vh;

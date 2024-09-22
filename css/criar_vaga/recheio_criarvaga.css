@@ -25,6 +25,14 @@ section button {
     color: #011126;
 }
 
+section button:hover {
+    margin: 1vh -1vw;
+    width: 16vw;
+    color: #FFFFFF;
+    background-color: #011126;
+    cursor: pointer;
+}
+
 #cartao_vaga {
     width: 30vw;
     height: 40vh;
