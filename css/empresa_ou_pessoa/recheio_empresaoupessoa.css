@@ -1,0 +1,73 @@
+#fundo_um {
+    width: 50vw;
+    height: 83vh;
+    background-color: #074973;
+    position: absolute;
+    top: 8vh;
+}
+
+#fundo_dois {
+    width: 50vw;
+    height: 83vh;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 8vh;
+    right: 0vw;
+}
+
+#imagem_esq {
+    width: 45vw;
+    height: 70vh;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 8vh;
+    left: 5vw;
+    border-radius: 3vw 0 0 3vw;
+}
+
+#imagem_dir {
+    width: 45vw;
+    height: 70vh;
+    background-color: #011126;
+    position: absolute;
+    top: 8vh;
+    right: 5vw;
+    border-radius: 0 3vw 3vw 0;
+}
+
+#botao_escolha_empresa {
+    position: absolute;
+    top: 32vh;
+    left: 14vw;
+    width: 17vw;
+    height: 8vh;
+
+    border-radius: 50vw;
+    background-color: #074973;
+    font-size: 2vw;
+    color: #ffffff;
+}
+#botao_escolha_pessoa{
+    position: absolute;
+    top: 32vh;
+    left: 14vw;
+    width: 17vw;
+    height: 8vh;
+
+    border-radius: 50vw;
+    background-color: #FFFFFF;
+    font-size: 2vw;
+    color: #011126;
+}
+#botao_brayam{
+    position: absolute;
+    bottom: 11vh;
+    left:42vw;
+    width: 15vw;
+    height: 6vh;
+
+    border-radius: 50vw;
+    background-color: #FFFFFF;
+    font-size: 1.2vw;
+    color: #011126;
+}
