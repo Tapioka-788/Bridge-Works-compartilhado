@@ -39,7 +39,7 @@ header div {
     justify-content: space-evenly;
     color: #011126;
 }
-#voltar:hover{
+header button:hover{
     color: red;
     cursor: pointer;
 }

@@ -1,0 +1,146 @@
+section {
+    width: 100vw;
+    height: 80vh;
+    margin: 8vh 0 9vh;
+}
+
+#botoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    left: 7vw;
+    top: 15vh;
+}
+
+#botoes_filtro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    left: 10vw;
+    top: 15vh;
+}
+
+section button {
+    margin: 1vh 0vw;
+    width: 15vw;
+    height: 6vh;
+
+    border-radius: 50vw;
+    background-color: #FFFFFF;
+    font-size: 1.2vw;
+    color: #011126;
+}
+
+section button:hover {
+    margin: 1vh -1vw;
+    width: 16vw;
+    color: #FFFFFF;
+    background-color: #011126;
+    cursor: pointer;
+}
+
+#barra_de_pesquisa {
+    width: 70vw;
+    position: absolute;
+    left: 10vw;
+}
+
+section button i{
+    position: absolute;
+    right: 2vw;
+}
+
+#barra_de_pesquisa:hover{
+    margin: 1vh -1vw;
+    width: 72vw;
+    color: #FFFFFF;
+    background-color: #011126;
+    cursor: pointer;
+}
+
+#cartao_vaga {
+    width: 30vw;
+    height: 40vh;
+    border: #011126;
+    border-radius: 2vw;
+    background-color: #ffffff;
+    color: #011126;
+    position: absolute;
+    top: 25vh;
+    right: 15vw;
+}
+
+#rodape_card {
+    width: 30vw;
+    height: 10vh;
+    border-radius: 0vh 0vh 2vw 2vw;
+    background-color: #011126;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+}
+
+#ct_Vsalario {
+    position: absolute;
+    right: 2vw;
+    font-size: 1.5vw;
+}
+
+#ct_Vvaga {
+    position: absolute;
+    bottom: 11vh;
+    left: 1vw;
+    font-size: 2vw;
+}
+
+#ct_Vdescricao {
+    position: absolute;
+    bottom: 9vh;
+    left: 1vw;
+}
+
+#ct_Vhorario {
+    position: absolute;
+    right: 1vw;
+    bottom: 9vh;
+}
+
+#ct_VlocalnomeE {
+    position: absolute;
+    font-size: 1vw;
+    top: 0.2 vh;
+    left: 1vw;
+}
+
+#ct_VnomeE {
+    position: absolute;
+    bottom: 2vh;
+    left: 1vw;
+}
+
+#confirmar_curiculo {
+    position: absolute;
+    top: 70vh;
+    right: 22.5vw;
+}
+
+/* #confirmar_curiculo {
+    position: absolute;
+    top: 70vh;
+    right: 22.5vw;
+    background-color: #011126;
+    color: #FFFFFF;
+} */
+
+#backgroun_recheio {
+    width: 95vw;
+    height: 80vh;
+    margin: 10vh 2vw 2vh;
+    background-color: #08678C;
+    border-radius: 2vw;
+}
