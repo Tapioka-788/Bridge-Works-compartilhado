@@ -1,0 +1,52 @@
+section {
+    width: 100vw;
+    height: 80vh;
+    margin: 8vh 0 9vh;
+}
+
+section button {
+    margin: 1vh 0vw;
+    width: 15vw;
+    height: 6vh;
+
+    border-radius: 50vw;
+    background-color: #FFFFFF;
+    font-size: 1.2vw;
+    color: #011126;
+}
+
+section button i {
+    position: absolute;
+    right: 2vw;
+}
+
+section button:hover {
+    margin: 1vh -1vw;
+    width: 16vw;
+    color: #FFFFFF;
+    background-color: #011126;
+    cursor: pointer;
+}
+
+
+#barra_de_pesquisa {
+    width: 70vw;
+    position: absolute;
+    left: 10vw;
+}
+
+#barra_de_pesquisa:hover {
+    margin: 1vh -1vw;
+    width: 72vw;
+    color: #FFFFFF;
+    background-color: #011126;
+    cursor: pointer;
+}
+
+#backgroun_recheio {
+    width: 95vw;
+    height: 80vh;
+    margin: 10vh 2vw 2vh;
+    background-color: #08678C;
+    border-radius: 2vw;
+}
