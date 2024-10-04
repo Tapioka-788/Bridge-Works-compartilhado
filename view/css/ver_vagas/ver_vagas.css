@@ -1,9 +1,15 @@
 @import url(./../header.css);
-@import url(./recheio_vervagas.css);
 @import url(./../footer.css);
+@import url(./recheio_vervagas.css);
 
 body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+
+}
+
+img {
+    width: 100%;
+    height: 100%;
 }

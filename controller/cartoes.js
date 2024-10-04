@@ -1,1 +1,5 @@
-//aqui eu vou colocar o codigo pra repetir o cartao 
+import { criarCartoes } from "./../view/js/cartao.js";
+
+document.addEventListener("DOMContentLoaded", ()=>{
+    criarCartoes()
+})
