@@ -1,7 +1,7 @@
 section {
-    margin: 13vh 0 0;
+    margin: 8vh 0 0;
     width: 100vw;
-    height: 81vh;
+    height: 83vh;
     background-color: rgb(100, 100, 100);
 
     display: flex;
@@ -20,7 +20,7 @@ section {
     height: 27.5vh;
     border-radius: 2vw;
     border: solid 0.3vw #011126;
-    color: #ffffff;
+    /* color: #ffffff; */
     background-color: #ffffff;
     display: flex;
     flex-direction: column;

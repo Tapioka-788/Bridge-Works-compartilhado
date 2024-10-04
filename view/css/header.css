@@ -7,10 +7,6 @@ header {
 }
 
 header div {
-    width: 100vw;
-    height: 8vh;
-    position: absolute;
-    top: 0vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -26,20 +22,35 @@ header div {
     background-color: #FFFFFF;
     font-size: 1.2vw;
     color: #011126;
-}
-.menu_cabecalho:hover{
-    width: 20vw;
+} 
+
+.menu_cabecalho:hover {
+    width: 13vw;
     cursor: pointer;
-}
+} 
 
 #voltar {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+
+    margin: 1vh 0vw;
+   
+    width: 12vw;
+    height: 5vh;
+
+    border-radius: 50vw;
+    background-color: #FFFFFF;
+    font-size: 1.2vw;
     color: #011126;
 }
-header button:hover{
+
+#voltar:hover{
+    width: 12vw;
+}
+
+header button:hover {
     color: red;
     cursor: pointer;
 }

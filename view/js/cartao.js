@@ -1,22 +1,22 @@
 let cartoes = [
     {
         salario: 'salario 10' ,
-        img: 'https://th.bing.com/th/id/OIP.fYaVUjXw0ZyL1mvl_YGt1AAAAA?rs=1&pid=ImgDetMain'},
+        img: ''},
     {
         salario: 'salario 11' ,
-        img: 'https://th.bing.com/th/id/R.87bd5ebddfd7189998cac4ba10e8d34d?rik=b%2bGTd1gMRENgJg&pid=ImgRaw&r=0'},
+        img: ''},
     {
         salario: 'salario 12' ,
-        img: 'https://th.bing.com/th/id/OIP.Tnk7lPzUorCvQdoeL-GdNQHaHa?rs=1&pid=ImgDetMain'},
+        img: ''},
     {
         salario: 'salario 13' ,
-        img: 'https://th.bing.com/th/id/R.3bcbd5e6a963d5314480808893bf720a?rik=8%2bTqlf5KoN4uiA&pid=ImgRaw&r=0'},
+        img: ''},
     {
         salario: 'salario 14' ,
-        img: 'https://th.bing.com/th/id/R.f11a53f54219a3f47c49275ef194c512?rik=lZ5pbqFYMxvmuQ&pid=ImgRaw&r=0'},
+        img: ''},
     {
         salario: 'salario 15' ,
-        img: 'https://th.bing.com/th/id/R.c9a263e0a838a0f180796869d3469cc1?rik=g%2fbJMc8MGshY4g&pid=ImgRaw&r=0'}
+        img: ''}
 ]
 
 export function criarCartoes() {
