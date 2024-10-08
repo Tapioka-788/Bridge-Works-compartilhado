@@ -23,8 +23,8 @@ section {
     height: 27.5vh;
     border-radius: 2vw;
     border: solid 0.3vw #011126;
-    /* color: #ffffff; */
     background-color: #ffffff;
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
