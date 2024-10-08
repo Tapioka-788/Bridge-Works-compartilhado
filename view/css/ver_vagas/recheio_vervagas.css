@@ -1,8 +1,9 @@
 section {
-    margin: 8vh 0 0;
-    width: 100vw;
-    height: 83vh;
-    background-color: rgb(100, 100, 100);
+    width: 95vw;
+    height: 80vh;
+    margin: 10vh 2vw 2vh;
+    background-color: #08678C;
+    border-radius: 2vw;
 
     display: flex;
     justify-content: center;

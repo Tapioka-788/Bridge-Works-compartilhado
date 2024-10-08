@@ -21,19 +21,13 @@ let cartoes = [
 
 export function criarCartoes() {
 
-    //cartao em forma de variavel
-
     let secitionCartoes = document.getElementById('cartoes')
 
     for (let i = 0; i < cartoes.length; i++) {
         let cartao = document.createElement('div');
         cartao.className = 'cartao_vaga';
 
-     cartao.style.backgroundImage =`url(${cartoes[i].img})`
- 
-        // let imagem = document.createElement('img')
-        // imagem.className = 'fusca'
-        // imagem.src = img[i]
+        cartao.style.backgroundImage =`url(${cartoes[i].img})`
 
         let h1 = document.createElement('h1')
         h1.textContent = cartoes[i].salario
@@ -53,7 +47,6 @@ export function criarCartoes() {
 
         cartao.appendChild(h1)
         cartao.appendChild(h5)
-        // cartao.appendChild(imagem)
         cartao.appendChild(p)
         cartao.appendChild(h2)
         cartao.appendChild(h3)
