@@ -36,6 +36,17 @@ section {
     background-repeat: no-repeat;
 }
 
+.button_excluir{
+    width: 4vw;
+    height: 4vh;
+
+    text-align: center;
+    cursor: pointer;
+
+    border-radius: 50vw;
+    background-color: #ffffff;
+}
+
 /* Estilos do rodapé */
 .rodape_card {
     width: 100%;

@@ -1,6 +1,7 @@
 @import url(./../header.css);
 @import url(./../footer.css);
 @import url(./recheio_vervagas.css);
+@import url(./telacadastro_vervagas.css);
 
 body {
     margin: 0;
