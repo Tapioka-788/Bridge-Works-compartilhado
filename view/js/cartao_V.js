@@ -1,6 +1,7 @@
+import { mostraTelaAtt } from "../../controller/telaAtt.js";
 import { mostraTelaCad } from "../../controller/telaCad.js";
-import { excluirCartoes, pegarCartoes } from "../../services/formacao/cartoes_S.js";
-import { pegarCartoes } from "../../services/formacao/cartoes_S.js"
+import { excluirCartoes } from "../../services/formacao/cartoes_S.js";
+import { pegarCartoes } from "./../../services/formacao/cartoes_S.js";
 
 export async function criarCartoes() {
     let secitionCartoes = document.getElementById('cartoes')
@@ -30,10 +31,17 @@ export async function criarCartoes() {
         h3.textContent = "Local da Empresa"
 
         let button = document.createElement('button')
-        button.className = 'button_excluir'
+        button.className = 'button_card'
         button.textContent = 'Excluir';
         button.addEventListener('click', ()=>{
             excluirCartoes(i)
+        })
+
+        let atualizarbutton = document.createElement('button')
+        atualizarbutton.className = 'button_card'
+        atualizarbutton.textContent = 'Atualizar';
+        atualizarbutton.addEventListener('click', ()=>{
+            mostraTelaAtt(i)
         })
 
         cartao.appendChild(h1)
@@ -41,16 +49,22 @@ export async function criarCartoes() {
         cartao.appendChild(p)
         cartao.appendChild(h2)
         cartao.appendChild(button)
+        cartao.appendChild(atualizarbutton)
         cartao.appendChild(h3)
 
         secitionCartoes.appendChild(cartao)
     }
     let cartaoAdd = document.createElement('button')
     cartaoAdd.className = 'cartao_add'
+    cartaoAdd.style.width = '15vw'
+    cartaoAdd.style.height = '27.5vh'
+    cartaoAdd.style.borderRadius = '2vw'
     cartaoAdd.textContent = '+'
+    cartaoAdd.style.fontSize = '10vw'
     cartaoAdd.addEventListener('click', ()=>{
         mostraTelaCad();
     })
+
     secitionCartoes.appendChild(cartaoAdd)
 }
 

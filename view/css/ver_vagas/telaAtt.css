@@ -1,4 +1,4 @@
-#telaCadastro{
+#telaAtt{
     width: 95vw;
     height: 80vh;
 
@@ -15,7 +15,7 @@
     align-items: center;
 }
 
-#inputs_cad{
+#inputs_att{
     width: 15vw;
     height: 27.5vh;
 
