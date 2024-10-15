@@ -1,9 +1,14 @@
 import { mostraTelaAtt } from "../../controller/telaAtt.js";
 import { mostraTelaCad } from "../../controller/telaCad.js";
 import { excluirCartoes } from "../../services/formacao/cartoes_S.js";
+<<<<<<< HEAD
 import { pegarCartoes } from "./../../services/formacao/cartoes_S.js";
+=======
+import { pegarCartoes } from "../../services/formacao/cartoes_S.js"
+>>>>>>> abffe76a7fe119f2a4515feda924cca707586521
 
 export async function criarCartoes() {
+    
     let secitionCartoes = document.getElementById('cartoes')
     secitionCartoes.innerHTML = ''
 
@@ -18,13 +23,18 @@ export async function criarCartoes() {
         let h1 = document.createElement('h1')
         h1.textContent = cartoes[i].salario
         h1.className = 'ct_font';
+
         let h5 = document.createElement('h5')
         h5.textContent = cartoes[i].vaga
         h5.className = 'ct_font';
+
         let p = document.createElement('p')
-        p.textContent = cartoes[i].descricao//adiciona um caroes[i].descricao e add no back end tbm
+        p.textContent = cartoes[i].descricao
+        // p.className = 'description'
+
         let h2 = document.createElement('h2')
         h2.textContent = "88:88"
+        // h2.className = 'time'
 
         let h3 = document.createElement('h3')
         h3.className = 'rodape_card';
@@ -48,8 +58,13 @@ export async function criarCartoes() {
         cartao.appendChild(h5)
         cartao.appendChild(p)
         cartao.appendChild(h2)
+
         cartao.appendChild(button)
+<<<<<<< HEAD
         cartao.appendChild(atualizarbutton)
+=======
+
+>>>>>>> abffe76a7fe119f2a4515feda924cca707586521
         cartao.appendChild(h3)
 
         secitionCartoes.appendChild(cartao)
