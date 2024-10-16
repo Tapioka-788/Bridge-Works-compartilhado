@@ -10,11 +10,12 @@ export function mostraTelaAtt(i){
     id = i;
     telaAtt.style.right = '0vw'
 }
-export function recolheDadosAtt(id){
+export function recolheDadosAtt(){
     let salario = document.getElementById('salario');
     let vaga = document.getElementById('vaga');
     let descricao = document.getElementById('descricao');
 
+    console.log(id, salario.value, vaga.value, descricao.value);
     atualizarCartao(id, salario.value, vaga.value, descricao.value);
     escondeTelaAtt();
 

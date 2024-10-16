@@ -61,7 +61,7 @@ export async function cadastrarCartao(salario, vaga, descricao) {
          method: 'PUT',
          headers: {
             'Content-Type': 'application/json',
-        },
+         },
          body: JSON.stringify({
            salario: salario,
            vaga: vaga,
@@ -69,6 +69,7 @@ export async function cadastrarCartao(salario, vaga, descricao) {
            id: id,
          }),
       })
+      criarCartoes();
     } catch (error) {
       console.error('Erro ao atualizar os cartoes', error)
     }
