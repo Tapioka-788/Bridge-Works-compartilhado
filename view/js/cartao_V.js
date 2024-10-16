@@ -1,11 +1,7 @@
-import { mostraTelaAtt } from "../../controller/telaAtt.js";
+import { mostraTelaAtt } from "./../../controller/telaAtt.js";
 import { mostraTelaCad } from "../../controller/telaCad.js";
 import { excluirCartoes } from "../../services/formacao/cartoes_S.js";
-<<<<<<< HEAD
-import { pegarCartoes } from "./../../services/formacao/cartoes_S.js";
-=======
-import { pegarCartoes } from "../../services/formacao/cartoes_S.js"
->>>>>>> abffe76a7fe119f2a4515feda924cca707586521
+import { pegarCartoes } from "../../services/formacao/cartoes_S.js";
 
 export async function criarCartoes() {
     
@@ -60,11 +56,7 @@ export async function criarCartoes() {
         cartao.appendChild(h2)
 
         cartao.appendChild(button)
-<<<<<<< HEAD
         cartao.appendChild(atualizarbutton)
-=======
-
->>>>>>> abffe76a7fe119f2a4515feda924cca707586521
         cartao.appendChild(h3)
 
         secitionCartoes.appendChild(cartao)

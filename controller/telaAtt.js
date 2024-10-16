@@ -1,12 +1,14 @@
 import { atualizarCartao } from "../services/formacao/cartoes_S.js";
 
-let telaCad = document.getElementById('telaCadastro')
+let telaAtt = document.getElementById('telaAtt')
+let id;
 
 export function escondeTelaAtt(){
-    telaCad.style.left = '-100vw'
+    telaAtt.style.right = '-100vw'
 }
-export function mostraTelaAtt(){
-    telaCad.style.left = '0vw'
+export function mostraTelaAtt(i){
+    id = i;
+    telaAtt.style.right = '0vw'
 }
 export function recolheDadosAtt(id){
     let salario = document.getElementById('salario');

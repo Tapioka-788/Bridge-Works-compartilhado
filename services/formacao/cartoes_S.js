@@ -3,11 +3,19 @@ import { criarCartoes } from "./../../view/js/cartao_V.js";
 export async function pegarCartoes() {
    try {
       const response = await fetch('http://localhost:3000/salario')
+      if(response.status === 200){
       const data = await response.json()
       const cartoes = data.cartoes;
+
       return cartoes;
-   } catch (error) {
-      console.error('Erro ao carregar os cartoes', error)
+   } else{
+      alert('Sevice offline...');
+      const cartoes = [];
+      return cartoes;
+   }
+}
+   catch (e) {
+      alert(e)
    }
 }
 
@@ -16,7 +24,7 @@ export async function excluirCartoes(index) {
       const response = await fetch('http://localhost:3000/salario', {
          method: 'DELETE',
          headers: {
-            'Contente-Type': 'application/json',
+            'Content-Type': 'application/json',
          },
          body: JSON.stringify({ cartao: index }),
       });
@@ -32,7 +40,7 @@ export async function cadastrarCartao(salario, vaga, descricao) {
       const response = await fetch('http://localhost:3000/salario', {
          method: 'POST',
          headers: {
-            'Contente-Type': 'application/json',
+            'Content-Type': 'application/json',
          },
          body: JSON.stringify({
             salario: salario,
@@ -42,8 +50,8 @@ export async function cadastrarCartao(salario, vaga, descricao) {
       });
       criarCartoes()
    }
-   catch (error) {
-      console.error('Erro ao excluir os cartoes', error)
+   catch (e) {
+      console.log(e)
    }
 }
 
@@ -52,11 +60,11 @@ export async function cadastrarCartao(salario, vaga, descricao) {
       const response = await fetch('http://localhost:3000/salario', {
          method: 'PUT',
          headers: {
-            'Contente-Type': 'application/json',
+            'Content-Type': 'application/json',
         },
          body: JSON.stringify({
            salario: salario,
-            vaga: vaga,
+           vaga: vaga,
            descricao: descricao,
            id: id,
          }),
