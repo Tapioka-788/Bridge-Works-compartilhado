@@ -13,8 +13,8 @@ export async function criarCartoes() {
     for (let i = 0; i < cartoes.length; i++) {
         let cartao = document.createElement('div');
         cartao.className = 'cartao_vaga';
-
-        cartao.style.backgroundColor = 'green'
+        let textos = document.createElement('div')
+        textos.className = 'textos'
 
         let h1 = document.createElement('h1')
         h1.textContent = cartoes[i].salario
@@ -26,38 +26,48 @@ export async function criarCartoes() {
 
         let p = document.createElement('p')
         p.textContent = cartoes[i].descricao
-        // p.className = 'description'
+        p.className = 'ct_font'
 
         let h2 = document.createElement('h2')
         h2.textContent = cartoes[i].horario
-        // h2.className = 'ct_font'
+        h2.className = 'ct_font'
+
+        let rodape = document.createElement('div')
+        rodape.className = 'rodape_card';
 
         let h3 = document.createElement('h3')
-        h3.className = 'rodape_card';
         h3.textContent = "Local da Empresa"
 
+        let btns = document.createElement('div')
+        btns.className = 'btns'
+
         let button = document.createElement('button')
-        button.className = 'button_card'
+   
         button.textContent = 'Excluir';
         button.addEventListener('click', ()=>{
             excluirCartoes(i)
         })
 
         let atualizarbutton = document.createElement('button')
-        atualizarbutton.className = 'button_card'
+ 
         atualizarbutton.textContent = 'Atualizar';
         atualizarbutton.addEventListener('click', ()=>{
             mostraTelaAtt(i)
         })
 
-        cartao.appendChild(h1)
-        cartao.appendChild(h5)
-        cartao.appendChild(p)
-        cartao.appendChild(h2)
+        textos.appendChild(h1)
+        textos.appendChild(h5)
+        textos.appendChild(p)
+        textos.appendChild(h2)
 
-        cartao.appendChild(button)
-        cartao.appendChild(atualizarbutton)
-        cartao.appendChild(h3)
+        btns.appendChild(button)
+        btns.appendChild(atualizarbutton)
+
+        rodape.appendChild(h3)
+
+        cartao.appendChild(textos)
+        cartao.appendChild(btns)
+        cartao.appendChild(rodape)
 
         secitionCartoes.appendChild(cartao)
     }

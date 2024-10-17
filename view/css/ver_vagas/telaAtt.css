@@ -15,9 +15,16 @@
     align-items: center;
 }
 
+.PutosAtt{
+    width: 10vw;
+    height: 2vh;
+    border-radius: 1vw;
+    padding: 0 1vw;
+}
+
 #inputs_att{
     width: 15vw;
-    height: 27.5vh;
+    height: 25vh;
 
     background-color: white;
     border-radius: 2vw;
