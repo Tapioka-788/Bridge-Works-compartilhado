@@ -14,7 +14,7 @@ export async function criarCartoes() {
         let cartao = document.createElement('div');
         cartao.className = 'cartao_vaga';
 
-        cartao.style.backgroundColor = 'red'
+        cartao.style.backgroundColor = 'green'
 
         let h1 = document.createElement('h1')
         h1.textContent = cartoes[i].salario
@@ -29,8 +29,8 @@ export async function criarCartoes() {
         // p.className = 'description'
 
         let h2 = document.createElement('h2')
-        h2.textContent = "88:88"
-        // h2.className = 'time'
+        h2.textContent = cartoes[i].horario
+        // h2.className = 'ct_font'
 
         let h3 = document.createElement('h3')
         h3.className = 'rodape_card';

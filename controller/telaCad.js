@@ -11,20 +11,22 @@ export function mostraTelaCad() {
 }
 
 export function recolheDados() {
-    let salario = document.getElementById('salario');
-    let vaga = document.getElementById('vaga');
-    let descricao = document.getElementById('descricao');
+    let salario = document.getElementById('salarioCad');
+    let vaga = document.getElementById('vagaCad');
+    let descricao = document.getElementById('descricaoCad');
+    let horario = document.getElementById('horarioCad')
 
-    if(salario.value === ""){
-        alert('nome em branco');
+    if(salario.value === "", vaga.value === '', descricao === '', horario.value === ''){
+        alert('Check se todos os campos estão preenchidos');
     } else {
 
 
-        cadastrarCartao(salario.value, vaga.value, descricao.value);
+        cadastrarCartao(salario.value, vaga.value, descricao.value, horario.value);
         escondeTelaCad();
 
         salario.value = '';
         vaga.value = '';
         descricao.value = '';
+        horario.value = '';
     }
 }

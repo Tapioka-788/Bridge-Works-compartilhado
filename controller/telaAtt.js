@@ -14,12 +14,18 @@ export function recolheDadosAtt(){
     let salario = document.getElementById('salario');
     let vaga = document.getElementById('vaga');
     let descricao = document.getElementById('descricao');
+    let horario = document.getElementById('horario')
 
-    console.log(id, salario.value, vaga.value, descricao.value);
-    atualizarCartao(id, salario.value, vaga.value, descricao.value);
+    if(salario.value === "", vaga.value === '', descricao === '', horario.value === ''){
+        alert('Check se todos os campos estão preenchidos');
+    } else {
+
+    console.log(id, salario.value, vaga.value, descricao.value, horario.value);
+    atualizarCartao(id, salario.value, vaga.value, descricao.value, horario.value);
     escondeTelaAtt();
 
     salario.value = '';
     vaga.value = '';
     descricao.value = '';
-}
+    horario.value = '';
+}};

@@ -21,6 +21,7 @@ section {
 .cartao_vaga {
     width: 15vw;
     height: 27.5vh;
+    /* padding: ; */
     border-radius: 2vw;
     border: solid 0.3vw #011126;
     background-color: #ffffff;
