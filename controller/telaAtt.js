@@ -8,24 +8,26 @@ export function escondeTelaAtt(){
 }
 export function mostraTelaAtt(i){
     id = i;
-    telaAtt.style.right = '0vw'
+    telaAtt.style.right = '1vw'
 }
 export function recolheDadosAtt(){
     let salario = document.getElementById('salario');
     let vaga = document.getElementById('vaga');
     let descricao = document.getElementById('descricao');
     let horario = document.getElementById('horario')
+    let nome = document.getElementById('Nome')
 
     if(salario.value === "", vaga.value === '', descricao === '', horario.value === ''){
         alert('Check se todos os campos estão preenchidos');
     } else {
 
-    console.log(id, salario.value, vaga.value, descricao.value, horario.value);
-    atualizarCartao(id, salario.value, vaga.value, descricao.value, horario.value);
+    console.log(id, salario.value, vaga.value, descricao.value, horario.value, nome.value,);
+    atualizarCartao(id, salario.value, vaga.value, descricao.value, horario.value, nome.value,);
     escondeTelaAtt();
 
     salario.value = '';
     vaga.value = '';
     descricao.value = '';
     horario.value = '';
+    nome.value = '';
 }};

@@ -21,9 +21,9 @@ section {
 .cartao_vaga {
     width: 15vw;
     height: 25vh;
-    padding: 0vw;
+    padding-top: 0.7vw;
     margin: 1vw;
-    border-radius: 2vw;
+    border-radius: 1vw;
     border: solid 0.2vw #011126;
     background-color: #ffffff;
 
@@ -38,6 +38,13 @@ section {
     background-repeat: no-repeat;
 }
 
+.cartao_vaga:hover {
+    width: 15.2vw;
+    height: 25.2vh;
+    margin: 0.9vw;
+    background-color: rgb(242, 186, 87);
+}
+
 .textos {
     width: 100%;
     height: 17vh;
@@ -48,11 +55,25 @@ section {
     text-align: center;
 
 }
-.ct_font{
+
+.ct_font {
     width: 100%;
     height: 4vh;
     font-size: 1vw;
     margin: 0;
+}
+
+#cSalario {
+    margin: 0 3.7vw 0;
+}
+
+#cHora {
+    margin: 0 3.7vw 0;
+}
+
+#cVaga {
+
+    margin: 0 -2.5vw 0vh;
 }
 
 .btns {
@@ -65,12 +86,24 @@ section {
     text-align: center;
 }
 
-.btns button{
-    width: 5vw ;
+.btns button {
+    width: 5vw;
     height: 95%;
     background-color: rgb(255, 255, 255);
     border-radius: 1vw;
     cursor: pointer;
+}
+
+.btns button:hover {
+    transform: scale(1.1);
+}
+
+#lixeira {
+    background-color: rgb(218, 48, 48);
+}
+
+#lapis {
+    background-color: rgb(48, 218, 48);
 }
 
 /* Estilos do rodapé */
@@ -83,3 +116,30 @@ section {
     color: #ffffff;
 }
 
+.rodape_card:hover {
+    width: 110%;
+    height: 5.2vh;
+    text-align: center;
+
+    background-color: #011126;
+    color: #ffffff;
+}
+
+#cartao_add {
+    width: 15vw;
+    height: 25vh;
+    padding-top: 0.7vw;
+    margin: 1vw;
+    border-radius: 1vw;
+    border: solid 0.2vw #011126;
+    background-color: #ffffff;
+
+    font-size: 10vw;
+}
+
+#cartao_add:hover {
+    width: 15.2vw;
+    height: 25.2vh;
+    margin: 0.9vw;
+    background-color: rgb(242, 186, 87);
+}

@@ -42,3 +42,15 @@
     display: flex;
     justify-content: space-evenly;
 }
+
+.cadbuts{
+    width: 3.6vw;
+    border-radius: 1vw;
+}
+
+.cadbuts:hover{
+    width: 4vw;
+    margin: 0 -0.2vw;
+    
+        background-color: rgb(242, 186, 87);
+    }

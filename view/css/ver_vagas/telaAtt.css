@@ -37,8 +37,20 @@
     padding: 5vh 0;
 }
 
-#buttons_telaCad{
+#buttons_telaatt{
     width: 15vw;
     display: flex;
     justify-content: space-evenly;
 }
+
+.attbuts{
+    width: 3.6vw;
+    border-radius: 1vw;
+}
+
+.attbuts:hover{
+    width: 4vw;
+    margin: 0 -0.2vw;
+    
+        background-color: rgb(242, 186, 87);
+    }

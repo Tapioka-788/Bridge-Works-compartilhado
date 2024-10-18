@@ -35,7 +35,7 @@ export async function excluirCartoes(index) {
    }
 }
 
-export async function cadastrarCartao(salario, vaga, descricao, horario) {
+export async function cadastrarCartao(salario, vaga, descricao, horario,nome) {
    try {
       const response = await fetch('http://localhost:3000/salario', {
          method: 'POST',
@@ -47,6 +47,7 @@ export async function cadastrarCartao(salario, vaga, descricao, horario) {
             vaga: vaga,
             descricao: descricao,
             horario: horario,
+            nome: nome,
          }),
       });
       criarCartoes()
@@ -56,7 +57,7 @@ export async function cadastrarCartao(salario, vaga, descricao, horario) {
    }
 }
 
-export async function atualizarCartao(id, salario, vaga, descricao, horario) {
+export async function atualizarCartao(id, salario, vaga, descricao, horario,nome) {
    try {
       const response = await fetch('http://localhost:3000/salario', {
          method: 'PUT',
@@ -68,6 +69,7 @@ export async function atualizarCartao(id, salario, vaga, descricao, horario) {
             vaga: vaga,
             descricao: descricao,
             horario: horario,
+            nome: nome,
             id: id,
          }),
       })
