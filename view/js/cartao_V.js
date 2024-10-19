@@ -1,6 +1,6 @@
 import { mostraTelaAtt } from "./../../controller/telaAtt.js";
 import { mostraTelaCad } from "../../controller/telaCad.js";
-import { excluirCartoes } from "../../services/formacao/cartoes_S.js";
+import { mostraTelaDel } from "../../controller/confirm_delete.js";
 import { pegarCartoes } from "../../services/formacao/cartoes_S.js";
 
 export async function criarCartoes() {
@@ -46,9 +46,9 @@ export async function criarCartoes() {
 
         let button = document.createElement('button')
         button.id = 'lixeira'
-        button.addEventListener('click', () => {
-            excluirCartoes(i)
-        })
+        button.addEventListener('click', ()=>{
+            mostraTelaDel(i);
+        });
 
         let lixo = document.createElement('i')
         lixo.classList.add('fa-solid')

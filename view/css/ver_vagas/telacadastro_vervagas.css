@@ -1,4 +1,4 @@
-#telaCadastro{
+#telaCadastro {
     width: 95vw;
     height: 80vh;
 
@@ -15,14 +15,14 @@
     align-items: center;
 }
 
-.Putos{
+.Putos {
     width: 10vw;
     height: 2vh;
     border-radius: 1vw;
     padding: 0 1vw;
 }
 
-#inputs_cad{
+#inputs_cad {
     width: 15vw;
     height: 25vh;
 
@@ -37,20 +37,18 @@
     padding: 5vh 0;
 }
 
-#buttons_telaCad{
+#buttons_telaCad {
     width: 15vw;
     display: flex;
     justify-content: space-evenly;
 }
 
-.cadbuts{
+.cadbuts {
     width: 3.6vw;
     border-radius: 1vw;
 }
 
-.cadbuts:hover{
-    width: 4vw;
-    margin: 0 -0.2vw;
-    
-        background-color: rgb(242, 186, 87);
-    }
+.cadbuts:hover {
+    transform: scale(1.1);
+    background-color: rgb(242, 186, 87);
+}

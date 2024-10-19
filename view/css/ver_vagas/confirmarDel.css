@@ -1,0 +1,74 @@
+#confirm_delete{
+    width: 95vw;
+    height: 80vh;
+
+    margin: 10vh 2vw 2vh; 
+
+    position: fixed;
+    top: 0;
+    left: -100vw;
+
+    background-color: rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 0.2s ease-in-out;
+}
+
+.smallScreen {
+    width: 25vw;
+    height: 20vh;
+
+    background-color: white;
+    border-radius: 2vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    padding: 5vh 1vw;
+
+    color: #333333;
+    font-size: 1vw;
+}
+
+.btns_confirm{
+    width: 14vw;
+    height: 5vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btn_confirm{
+    width: 5vw;
+    height: 3vh;
+
+    border: none;
+    color: white;
+
+    border-radius: 0.3vw;
+
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+#btn_sim{
+    background-color: rgb(48, 218, 48);
+}
+#btn_nao{
+    background-color: rgb(218, 48, 48);
+}
+#btn_sim:hover{
+    transform: scale(1.1);
+    background-color: rgb(242, 186, 87);
+}
+#btn_nao:hover{
+    transform: scale(1.1);
+    background-color: rgb(242, 186, 87);
+}

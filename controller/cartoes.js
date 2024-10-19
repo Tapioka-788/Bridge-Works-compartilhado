@@ -5,6 +5,11 @@ import { recolheDados } from "./telaCad.js";
 import { escondeTelaAtt } from "./telaAtt.js";
 import { recolheDadosAtt } from "./telaAtt.js";
 
+import { escodeTelaDel, recolheDadosDel} from './confirm_delete.js';
+
+window.escodeTelaDel = escodeTelaDel;
+window.recolheDadosDel = recolheDadosDel;
+
 window.escondeTelaCad = escondeTelaCad;
 window.recolheDados = recolheDados;
 

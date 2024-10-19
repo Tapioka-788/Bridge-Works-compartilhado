@@ -49,8 +49,6 @@
 }
 
 .attbuts:hover{
-    width: 4vw;
-    margin: 0 -0.2vw;
-    
-        background-color: rgb(242, 186, 87);
-    }
+    transform: scale(1.1);
+    background-color: rgb(242, 186, 87);
+}

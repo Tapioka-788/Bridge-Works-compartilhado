@@ -39,9 +39,7 @@ section {
 }
 
 .cartao_vaga:hover {
-    width: 15.2vw;
-    height: 25.2vh;
-    margin: 0.9vw;
+    transform: scale(1.1);
     background-color: rgb(242, 186, 87);
 }
 
@@ -109,16 +107,8 @@ section {
 /* Estilos do rodapé */
 .rodape_card {
     width: 110%;
-    height: 5vh;
-    text-align: center;
-
-    background-color: #011126;
-    color: #ffffff;
-}
-
-.rodape_card:hover {
-    width: 110%;
-    height: 5.2vh;
+    height: 2vh;
+    border-bottom: solid 2vw #011126;
     text-align: center;
 
     background-color: #011126;
@@ -138,8 +128,6 @@ section {
 }
 
 #cartao_add:hover {
-    width: 15.2vw;
-    height: 25.2vh;
-    margin: 0.9vw;
+    transform: scale(1.1);
     background-color: rgb(242, 186, 87);
 }
