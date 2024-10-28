@@ -78,3 +78,5 @@ export async function atualizarCartao(id, salario, vaga, descricao, horario,nome
       console.error('Erro ao atualizar os cartoes', error)
    }
 }
+
+//aaaaaaa
