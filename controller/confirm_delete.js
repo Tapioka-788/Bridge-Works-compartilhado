@@ -12,6 +12,6 @@ export function mostraTelaDel(i) {
 }
 
 export function recolheDadosDel(){
-    excluirCartoes(id);
+    excluirCartoes(cartoes[i].id);
     escodeTelaDel();
 }

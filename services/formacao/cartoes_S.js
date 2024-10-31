@@ -2,7 +2,7 @@ import { criarCartoes } from "./../../view/js/cartao_V.js";
 
 export async function pegarCartoes() {
    try {
-      const response = await fetch('http://localhost:3000/salario')
+      const response = await fetch('https://backend-tele-curso-real.vercel.app/salario')
       if (response.status === 200) {
          const data = await response.json()
          const cartoes = data.cartoes;
@@ -19,14 +19,14 @@ export async function pegarCartoes() {
    }
 }
 
-export async function excluirCartoes(index) {
+export async function excluirCartoes(id) {
    try {
-      const response = await fetch('http://localhost:3000/salario', {
+      const response = await fetch('https://backend-tele-curso-real.vercel.app/salario', {
          method: 'DELETE',
          headers: {
             'Content-Type': 'application/json',
          },
-         body: JSON.stringify({ cartao: index }),
+         body: JSON.stringify({ id }),
       });
       criarCartoes()
    }
@@ -37,7 +37,7 @@ export async function excluirCartoes(index) {
 
 export async function cadastrarCartao(salario, vaga, descricao, horario,nome) {
    try {
-      const response = await fetch('http://localhost:3000/salario', {
+      const response = await fetch('https://backend-tele-curso-real.vercel.app/salario', {
          method: 'POST',
          headers: {
             'Content-Type': 'application/json',
@@ -59,7 +59,7 @@ export async function cadastrarCartao(salario, vaga, descricao, horario,nome) {
 
 export async function atualizarCartao(id, salario, vaga, descricao, horario,nome) {
    try {
-      const response = await fetch('http://localhost:3000/salario', {
+      const response = await fetch('https://backend-tele-curso-real.vercel.app/salario', {
          method: 'PUT',
          headers: {
             'Content-Type': 'application/json',
